@@ -78,5 +78,6 @@ def main():
     for i, brewery in enumerate(breweries_list, 1):
         print(f"\n{i}. {brewery}")
 
+
 if __name__ == "__main__":
     main()

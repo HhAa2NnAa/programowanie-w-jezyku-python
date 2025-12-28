@@ -1,4 +1,5 @@
-def hellonamesurname(Name: str,Surname: str):
-    print('Cześć ',Name,'',Surname,'!')
+def hellonamesurname(Name: str, Surname: str):
+    print('Cześć ', Name, '', Surname, '!')
 
-hellonamesurname('Hanna','Makurat-Snuzik')
+
+hellonamesurname('Hanna', 'Makurat-Snuzik')

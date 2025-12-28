@@ -46,7 +46,8 @@ class Brewery:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Pobieranie browarów z Open Brewery DB API')
+    parser = argparse.ArgumentParser(
+        description='Pobieranie browarów z Open Brewery DB API')
     parser.add_argument('--city', type=str)
 
     args = parser.parse_args()
